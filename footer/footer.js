@@ -28,6 +28,4 @@ crearfooter.innerHTML =  `
     <a href="https://github.com/Leibril2007/Etiquetas_HTML">Leibril2008👆</a>
 </h2>
 
-
-
 `;
