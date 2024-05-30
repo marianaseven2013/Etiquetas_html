@@ -1,0 +1,25 @@
+*{
+    max-width: 375px;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html {
+    font-size: 10px;
+
+   
+}
+
+body {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10rem repeat(3, 1fr) 10 rem;
+
+    max-width: 375px;
+    height: 100%;
+
+}
