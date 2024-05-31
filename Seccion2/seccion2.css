@@ -1,0 +1,37 @@
+body {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.s2{
+    text-align: center;
+    color: rgb(17, 17, 17);
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #e5e3e3;
+}
+
+th{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dddddd;   
+} 
+
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+thead {
+    background-color: rgb(81, 80, 80);
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
