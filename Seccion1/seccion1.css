@@ -1,0 +1,59 @@
+.section1{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.titText{
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.section1 th{
+    text-align: center;
+    border: 2px solid rgb(21, 74, 76);
+    padding: 0.9rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+
+    background-color: rgb(23, 159, 66);
+}
+
+.section1 .etiqueta{
+    text-align: center;
+    border: 2px solid black;
+    font-style: italic;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #2a873b;
+}
+
+.section1 tr{
+    padding: 1rem;
+
+    background-color: rgb(215, 216, 216);
+}
+
+.section1 td{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 2px solid #333e44;
+}
+
+
+.section1  tr:hover{
+    background-color: rgb(157, 186, 188);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.section1 .etiqueta:hover{
+    background-color: rgb(62, 88, 98);
+}
